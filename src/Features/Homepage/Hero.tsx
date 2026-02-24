@@ -73,15 +73,6 @@ const Hero = () => {
 
           {user ? (
             <div className="flex gap-3 items-center">
-              <Select value={type} onValueChange={(val) => settype(val)}>
-                <SelectTrigger className="w-40 bg-background border-border">
-                  <SelectValue placeholder="Select type" />
-                </SelectTrigger>
-                <SelectContent className="bg-background border-border">
-                  <SelectItem value="full-course">Full Course</SelectItem>
-                  <SelectItem value="video">Video Series</SelectItem>
-                </SelectContent>
-              </Select>
               
               <button
                 onClick={course_layout} 
